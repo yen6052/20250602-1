@@ -27,9 +27,9 @@ let pixelFont;
 function preload() {
   handPose = ml5.handPose({flipped: true});
   rocketImg = loadImage('0.png');
-  spaceMaskImg = loadImage('SPACE.PNG');
+  spaceMaskImg = loadImage('SPACE.PNG'); // 這裡已經正確
   planetMeteorImg = loadImage('planet.png');
-  pixelFont = loadFont('字體.ttf'); // 載入你的字型
+  pixelFont = loadFont('字體.ttf');
 }
 
 function setup() {
